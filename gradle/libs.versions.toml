@@ -1,0 +1,109 @@
+[versions]
+kotlin-version = "1.8.21"
+core-ktx-version = "1.9.0"
+lifecycle-ktx-version = "2.5.1"
+activity-compose-version = "1.6.1"
+junit-version = "4.13.2"
+androidx-junit-ext-version = "1.1.5"
+espresso-core-version = "3.5.1"
+hilt-plugin-version = "2.45"
+hilt-version = "2.45"
+hilt-navigation-compose-version = "1.0.0"
+navigation-anim-version = "0.29.0-alpha"
+pager-version = "0.27.0"
+splashscreen-version = "1.0.0"
+immutable-collections-version = "0.3.5"
+glide-version = "1.0.0-alpha.1"
+compose-lifecycle-version = "2.6.0-rc01"
+room-version = "2.5.2"
+ktor-version = "2.3.1"
+serialization-version = "1.4.1"
+serialization-plugin-version = "1.8.0"
+androidx-compose-compiler-version = "1.4.7"
+compose-bom-version = "2022.10.00"
+coroutine-version = "1.7.1"
+splashscreen_version = "1.0.0-rc01"
+mockito-core-version = "5.1.1"
+mockito-kotlin-version = "3.2.0"
+google-truth-version = "1.1.3"
+
+android_app_plugin_version = "8.0.2"
+android_library_plugin_version = "8.0.2"
+kotlin_android_plugin_version = "1.8.20"
+kotlin_javavm_plugin_version = "1.8.20"
+
+[libraries]
+#androidX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx-version" }
+androidx-lifecycle-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-ktx-version" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose-version" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom-version" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose" }
+
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine-version" }
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine-version" }
+
+#testing
+junit = { group = "junit", name = "junit", version.ref = "junit-version" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit-ext-version" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core-version" }
+androidx-compose-ui-test-junit = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito-core-version" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin-version" }
+coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutine-version" }
+google-truth = { group = "com.google.truth", name = "truth", version.ref = "google-truth-version" }
+
+#hilt
+hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-version" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-version" } #kapt
+hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose-version" }
+
+#navigation component
+navigation-accompanist-component = { group = "com.google.accompanist", name = "accompanist-navigation-animation", version.ref = "navigation-anim-version" }
+
+#pager
+pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "pager_version" }
+pager-indicator = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "pager_version" }
+
+#splashscreen
+splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen_version" }
+
+#immutable collections
+immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "immutable-collections-version" }
+
+#glide
+glide = { group = "com.github.bumptech.glide", name = "compose", version.ref = "glide_version" }
+
+#room
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room-version" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room-version" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room-version" }
+room-test = { group = "androidx.room", name = "room-testing", version.ref = "room-version" }
+
+#ktor
+ktor = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor-version" }
+ktor-json-serialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor-version" }
+ktor-logging = { group = "io.ktor", name = "ktor-client-logging-jvm", version.ref = "ktor-version" }
+ktor-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor-version" }
+
+#kotlin serialization
+kotlin-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization-version" }
+
+#splash screen
+splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen_version" }
+
+[plugins]
+android_app_plugin = { id = "com.android.application", version.ref = "android_app_plugin_version" }
+android_lib_plugin = { id = "com.android.library", version.ref = "android_library_plugin_version" }
+kotlin_plugin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin_android_plugin_version" }
+kotlin_javavm_plugin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin_javavm_plugin_version" }
+hilt_plugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt-plugin-version" }
+kotlin_serialization_plugin = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serialization-plugin-version" }
+

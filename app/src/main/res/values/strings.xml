@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">simple</string>
+
+    <!-- Home Screen -->
+    <string name="home_bottom_navigation_bar_feed">Feed</string>
+    <string name="home_bottom_navigation_bar_favourites">Favourites</string>
+    <string name="home_bottom_navigation_bar_profile">Profile</string>
+</resources>
