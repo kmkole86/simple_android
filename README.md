@@ -1,11 +1,13 @@
 # simple
 
-Just a simple list=>details piece of code (not an app). 
-Take a glance, made just to show my way of thinking about 
-something simple where the app architecture comes into focus. 
+overkill of the simplest list. Clean architecture with 
+maintainability and scalability in focus...
+CLEAN, MVI, Compose, Coroutines / Flow, Hilt, Room, Ktor...
+• Out of scope:
+  ▪ UI (done in a way just to prove a point)
+  ▪ All cases handled etc. (not meant to be a complete solution) 
 
-Not finished, it can go different ways from here... e.g. adding redux
-for encapsulating state update logic into smaller units etc.
-
-Android, CLEAN, SOLID, MVI, Kotlin, Coroutines/Flow, Hilt,
-OfflineFirst (proxy pattern), Room (caching, decorator pattern)...
+Not finished, ment to be used as conversation starting point.
+it can go different ways from here... e.g. adding redux
+for encapsulating state update logic into smaller units,
+optimize it in a various directions...
